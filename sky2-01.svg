@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="123" viewBox="0 0 166 123">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask);
+      }
+
+      .cls-2 {
+        fill: #f3f3f4;
+      }
+
+      .cls-3 {
+        filter: url(#luminosity-noclip);
+      }
+    </style>
+    <filter id="luminosity-noclip" x="42" y="31" width="74" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="42" y="31" width="74" height="26" maskUnits="userSpaceOnUse">
+      <g class="cls-3">
+        <image width="74" height="26" transform="translate(42 31)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAAAaCAIAAACfPF3RAAAACXBIWXMAAAsSAAALEgHS3X78AAAFKUlEQVRYR+2YbY/STBSGO2U6fYWhA6UL7AJbdM0S16zZ+P9/gzH6ycTE6LouZIHS9047z4cjVVkVF/BJTLw+FdKezj3nzH0OSNI//l7Qtht25+TkxLZtVVVrtZokSUVRZFk2n8/fv3+/7dGD8UfkeZ7X7XZ7vV6z2TQMA2MsSRLnPE3T+Xx+e3u7WCym0+mHDx+2RdoXvO2GhzEcDvv9/mg06na77XabUqrruqIokiRxzpMk8X1/Pp9Pp9Pr62tN096+fbst5F4cUt6TJ0/Oz89Ho1G/3+90Ooyxer0OxYkQ4pxnWRYEge/7s9ms3W6bpkkIefPmzbbAu3MweZPJ5NmzZ2dnZ4PB4OjoqNVqNRoNXdc3zl6SJKvVijHWaDQMwyCEIIRev369LfyOHEbe06dPLy8vz8/PT09Pe71eu91uNpugDWMsy7IkSUKIoiiSJKGU1ut10zQ1TSOEyLIsy/KrV6+2vWQXDiDv4uLi+fPnk8lkPB4fHx87jgOOQgiBvH2LqqqGYaiqqqqqoiiKotRqNdiCly9f/jD+Pmy+/qFcXl5eXV1dXFw8fvwYypIxZlmWqqqQtA0QQhhjRVEIIYQQEFnV8MePH+8/sg97Ze/FixdXV1eTyeT09BTyBlZ5P2kbYIxN05RlGWOMMdZ13TAMxpjneb7vJ0mSZVmWZXEc393d7aP5t+QNBgPGmKZpsPEYY0IIpXQ4HD569GgwGHS73VarRSn9WdLuI8sytESMsaZplmU5jjMej5fLZRzHcRyHYej7/nQ6dV335ubm+vp6W8gf8Ct5YBK2bbuuyxgzDAOamKqquq7DgjqdDhhJvV4HG/xFwA0QQlCTqqqapmnbdrfbjaIoDMMoioIgWC6Xnz9/BhMWQnz69GlbyE1+Ks/zvLOzs6OjI8dxWq1Ws9m0LEvTNHAFTdNM0zRNk1JqGEY1muwAxhjOqmVZjLE0TSF7q9VqsVg0Gg3TNCVJCsPwMPJc1+31ep7nQdU5jmPbNqUUrBzMQFVVMAb4+KCk3QchRAgBj4Hun6Zpo9Go1+u6rmOMOedRFM1ms3fv3m0L9h2b8jqdzng8Ho1Gg8Hg5OTEdV2oPcuywNDh7NXW/DDoboCpYoyh+GErZVkuyzJNU9/3b25uHipvc32e543H4+FwCKkDeYwxOF2GYWiaBs3qNy1kBxBC0AwRQgihsiw555zzPM8557e3t9sCfOW77B0fH8O46DgOY8y2bagQOF0wGf9v1Go1qH/DMCilruuuVquyLFutlu/7aZrmeV4UBcgOgmC1Wt0P8lUeY6zf71cuAiYJ8wRCSAghhNjzjD0IWLoQQpZlsFbXdcuyNAzD9/0oirI10EXu7u7g+2+DfJVHKYUxF6wCSiJN0yiKEEJFUcCRg5r8czqFEGVZCiHAY8IwTNO0KAoQSSkVQmiaFscxdP8kSZIkAQcihMxms28VfpFnWZZlWYQQIUSe5zDXy7IMQ3AYhpWjQDLhqQMev7Is4QLKBDY3z3NoEkEQRFGU57kQAooW7oeVwLBumibnHHpmFfaLPOjIkOjFYiFJUpIkQRCAg4Frgzb48QZPHTaHQghpnb2yLKE4q/xEURSvSdM0SZJ8Decc1NZqNVhwkiQQ84u8sizjOF4ul5IkhWE4n891Xdd1HYRV2iB1f1pelcCiKCoN0AzhAmTzNVmW5XkOmoUQiqKA60jwXwsMR2D64PvwO62qxqomQc9hVW2wIbIoiqIoQGp1AaVbrqm+AfGwHVW1/+Ov5T9d2OKZXFtBcwAAAABJRU5ErkJggg=="/>
+      </g>
+    </mask>
+  </defs>
+  <title>sky2</title>
+  <g id="Skyer">
+    <g class="cls-1">
+      <path class="cls-2" d="M44,55h69.39s-2.82-10.09-12.91-5.65c0,0-1.61-10.89-11.7-7.26,0,0-11.29-20.17-27,.81C61.75,42.9,48,39.27,44,55Z"/>
+    </g>
+  </g>
+</svg>

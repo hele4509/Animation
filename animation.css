@@ -1,0 +1,176 @@
+body {
+    margin-right: 0;
+    padding: 0;
+}
+
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+
+    position: relative;
+/*    overflow: hidden;*/
+}
+
+#baggrund {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(baggrund.svg);
+    background-size: 100% 100%;
+}
+
+#sky1 {
+    width: 22.30vw;
+    height: 19.31vw;
+
+    background-image: url(sky1.svg);
+    background-size: 90% 90%;
+    position: absolute;
+    z-index: 96;
+    top: 1vw;
+    left: 5vw;
+
+    animation-name: sky1;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes sky1 {
+     from {
+        left: 100vw;
+        transform: scale(2);
+    }
+
+    to {
+        left: -100vw;
+        transform: scale(2);
+    }
+}
+
+
+
+#sky2 {
+    width: 22.30vw;
+    height: 19.31vw;
+
+    background-image: url(sky2-01.svg);
+    background-size: 80% 80%;
+    position: absolute;
+    z-index: 96;
+    top: 2vw;
+    left: 5vw;
+
+    animation-name: sky2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes sky2 {
+     from {
+        left: 100vw;
+        transform: scale(2);
+    }
+
+    to {
+        left: -100vw;
+        transform: scale(2);
+    }
+}
+
+#sky3 {
+    width: 22.30vw;
+    height: 19.31vw;
+
+    background-image: url(sky3-01.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 96;
+    top: 0vw;
+    left: 5vw;
+
+    animation-name: sky3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes sky3 {
+     from {
+        left: -100vw;
+        transform: scale(2);
+    }
+
+    to {
+        left: 100vw;
+        transform: scale(2);
+    }
+}
+
+
+#mand1 {
+    width: 50vw;
+    height: 50vw;
+
+    background-image: url(mand1.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 96;
+    top: 15vw;
+    left: 5vw;
+
+    animation-name: mand1;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+
+@keyframes mand1 {
+     from {
+        left: -100vw;
+        transform: scale(1);
+    }
+
+    to {
+        left: 5vw;
+        transform: scale(1);
+    }
+}
+
+
+#mand2 {
+    width: 40vw;
+    height: 40vw;
+
+    background-image: url(mand2.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 96;
+    top: 20vw;
+    left: 50vw;
+
+    animation-name: mand2;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+
+@keyframes mand2 {
+     from {
+        left: 100vw;
+        transform: scale(1);
+    }
+
+    to {
+        left: 50vw;
+        transform: scale(1);
+    }
+}
+
+
